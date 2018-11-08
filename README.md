@@ -24,3 +24,5 @@ class ViewController: UIViewController {
 }
 
 ```
+
+![image](https://user-images.githubusercontent.com/8204242/48204760-9870c080-e338-11e8-914c-6524d425a261.png)

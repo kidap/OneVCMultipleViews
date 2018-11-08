@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let texts = ["Hello", "World"]
+
+
+        if var view = view1 as? TextsContaining {
+            view.texts = texts
+        }
+
+        if var view = view2 as? TextsContaining {
+            view.texts = texts
+        }
     }
-
-
 }
 

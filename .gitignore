@@ -1,0 +1,5 @@
+project.xcworkspace/
+xcuserdata/
+shared
+.DS_Store
+Carthage/

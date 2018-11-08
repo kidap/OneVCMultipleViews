@@ -12,26 +12,11 @@
 		C2616FCE2194785000C0F991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2616FCC2194785000C0F991 /* Main.storyboard */; };
 		C2616FD02194785100C0F991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2616FCF2194785100C0F991 /* Assets.xcassets */; };
 		C2616FD32194785100C0F991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2616FD12194785100C0F991 /* LaunchScreen.storyboard */; };
-		C2616FDE2194785100C0F991 /* MultipleViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2616FDD2194785100C0F991 /* MultipleViewsTests.swift */; };
-		C2616FE92194785100C0F991 /* MultipleViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2616FE82194785100C0F991 /* MultipleViewsUITests.swift */; };
+		C2616FF72194787400C0F991 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2616FF62194787400C0F991 /* MainView.swift */; };
+		C2616FF92194787D00C0F991 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2616FF82194787D00C0F991 /* MainView.xib */; };
+		C2616FFB2194794B00C0F991 /* AlternateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2616FFA2194794B00C0F991 /* AlternateView.xib */; };
+		C2616FFD219479BD00C0F991 /* AlternateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2616FFC219479BD00C0F991 /* AlternateView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C2616FDA2194785100C0F991 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C2616FBD2194785000C0F991 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C2616FC42194785000C0F991;
-			remoteInfo = MultipleViews;
-		};
-		C2616FE52194785100C0F991 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C2616FBD2194785000C0F991 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C2616FC42194785000C0F991;
-			remoteInfo = MultipleViews;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C2616FC52194785000C0F991 /* MultipleViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +26,14 @@
 		C2616FCF2194785100C0F991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2616FD22194785100C0F991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2616FD42194785100C0F991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2616FD92194785100C0F991 /* MultipleViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2616FDD2194785100C0F991 /* MultipleViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleViewsTests.swift; sourceTree = "<group>"; };
-		C2616FDF2194785100C0F991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2616FE42194785100C0F991 /* MultipleViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2616FE82194785100C0F991 /* MultipleViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleViewsUITests.swift; sourceTree = "<group>"; };
-		C2616FEA2194785100C0F991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2616FF62194787400C0F991 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C2616FF82194787D00C0F991 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		C2616FFA2194794B00C0F991 /* AlternateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlternateView.xib; sourceTree = "<group>"; };
+		C2616FFC219479BD00C0F991 /* AlternateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2616FC22194785000C0F991 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2616FD62194785100C0F991 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2616FE12194785100C0F991 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				C2616FC72194785000C0F991 /* MultipleViews */,
-				C2616FDC2194785100C0F991 /* MultipleViewsTests */,
-				C2616FE72194785100C0F991 /* MultipleViewsUITests */,
 				C2616FC62194785000C0F991 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				C2616FC52194785000C0F991 /* MultipleViews.app */,
-				C2616FD92194785100C0F991 /* MultipleViewsTests.xctest */,
-				C2616FE42194785100C0F991 /* MultipleViewsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +62,18 @@
 		C2616FC72194785000C0F991 /* MultipleViews */ = {
 			isa = PBXGroup;
 			children = (
-				C2616FC82194785000C0F991 /* AppDelegate.swift */,
 				C2616FCA2194785000C0F991 /* ViewController.swift */,
 				C2616FCC2194785000C0F991 /* Main.storyboard */,
+				C2616FF62194787400C0F991 /* MainView.swift */,
+				C2616FF82194787D00C0F991 /* MainView.xib */,
+				C2616FFC219479BD00C0F991 /* AlternateView.swift */,
+				C2616FFA2194794B00C0F991 /* AlternateView.xib */,
+				C2616FC82194785000C0F991 /* AppDelegate.swift */,
 				C2616FCF2194785100C0F991 /* Assets.xcassets */,
 				C2616FD12194785100C0F991 /* LaunchScreen.storyboard */,
 				C2616FD42194785100C0F991 /* Info.plist */,
 			);
 			path = MultipleViews;
-			sourceTree = "<group>";
-		};
-		C2616FDC2194785100C0F991 /* MultipleViewsTests */ = {
-			isa = PBXGroup;
-			children = (
-				C2616FDD2194785100C0F991 /* MultipleViewsTests.swift */,
-				C2616FDF2194785100C0F991 /* Info.plist */,
-			);
-			path = MultipleViewsTests;
-			sourceTree = "<group>";
-		};
-		C2616FE72194785100C0F991 /* MultipleViewsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C2616FE82194785100C0F991 /* MultipleViewsUITests.swift */,
-				C2616FEA2194785100C0F991 /* Info.plist */,
-			);
-			path = MultipleViewsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +96,6 @@
 			productReference = C2616FC52194785000C0F991 /* MultipleViews.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C2616FD82194785100C0F991 /* MultipleViewsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2616FF02194785100C0F991 /* Build configuration list for PBXNativeTarget "MultipleViewsTests" */;
-			buildPhases = (
-				C2616FD52194785100C0F991 /* Sources */,
-				C2616FD62194785100C0F991 /* Frameworks */,
-				C2616FD72194785100C0F991 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2616FDB2194785100C0F991 /* PBXTargetDependency */,
-			);
-			name = MultipleViewsTests;
-			productName = MultipleViewsTests;
-			productReference = C2616FD92194785100C0F991 /* MultipleViewsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C2616FE32194785100C0F991 /* MultipleViewsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2616FF32194785100C0F991 /* Build configuration list for PBXNativeTarget "MultipleViewsUITests" */;
-			buildPhases = (
-				C2616FE02194785100C0F991 /* Sources */,
-				C2616FE12194785100C0F991 /* Frameworks */,
-				C2616FE22194785100C0F991 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2616FE62194785100C0F991 /* PBXTargetDependency */,
-			);
-			name = MultipleViewsUITests;
-			productName = MultipleViewsUITests;
-			productReference = C2616FE42194785100C0F991 /* MultipleViewsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +108,6 @@
 				TargetAttributes = {
 					C2616FC42194785000C0F991 = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					C2616FD82194785100C0F991 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = C2616FC42194785000C0F991;
-					};
-					C2616FE32194785100C0F991 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = C2616FC42194785000C0F991;
 					};
 				};
 			};
@@ -218,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				C2616FC42194785000C0F991 /* MultipleViews */,
-				C2616FD82194785100C0F991 /* MultipleViewsTests */,
-				C2616FE32194785100C0F991 /* MultipleViewsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,22 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2616FD32194785100C0F991 /* LaunchScreen.storyboard in Resources */,
+				C2616FF92194787D00C0F991 /* MainView.xib in Resources */,
+				C2616FFB2194794B00C0F991 /* AlternateView.xib in Resources */,
 				C2616FD02194785100C0F991 /* Assets.xcassets in Resources */,
 				C2616FCE2194785000C0F991 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2616FD72194785100C0F991 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2616FE22194785100C0F991 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,40 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2616FCB2194785000C0F991 /* ViewController.swift in Sources */,
+				C2616FFD219479BD00C0F991 /* AlternateView.swift in Sources */,
+				C2616FF72194787400C0F991 /* MainView.swift in Sources */,
 				C2616FC92194785000C0F991 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2616FD52194785100C0F991 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2616FDE2194785100C0F991 /* MultipleViewsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2616FE02194785100C0F991 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2616FE92194785100C0F991 /* MultipleViewsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C2616FDB2194785100C0F991 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C2616FC42194785000C0F991 /* MultipleViews */;
-			targetProxy = C2616FDA2194785100C0F991 /* PBXContainerItemProxy */;
-		};
-		C2616FE62194785100C0F991 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C2616FC42194785000C0F991 /* MultipleViews */;
-			targetProxy = C2616FE52194785100C0F991 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C2616FCC2194785000C0F991 /* Main.storyboard */ = {
@@ -464,88 +330,6 @@
 			};
 			name = Release;
 		};
-		C2616FF12194785100C0F991 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B48565T372;
-				INFOPLIST_FILE = MultipleViewsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidap.MultipleViewsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleViews.app/MultipleViews";
-			};
-			name = Debug;
-		};
-		C2616FF22194785100C0F991 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B48565T372;
-				INFOPLIST_FILE = MultipleViewsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidap.MultipleViewsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleViews.app/MultipleViews";
-			};
-			name = Release;
-		};
-		C2616FF42194785100C0F991 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B48565T372;
-				INFOPLIST_FILE = MultipleViewsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidap.MultipleViewsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MultipleViews;
-			};
-			name = Debug;
-		};
-		C2616FF52194785100C0F991 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B48565T372;
-				INFOPLIST_FILE = MultipleViewsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidap.MultipleViewsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MultipleViews;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,24 +347,6 @@
 			buildConfigurations = (
 				C2616FEE2194785100C0F991 /* Debug */,
 				C2616FEF2194785100C0F991 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2616FF02194785100C0F991 /* Build configuration list for PBXNativeTarget "MultipleViewsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2616FF12194785100C0F991 /* Debug */,
-				C2616FF22194785100C0F991 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2616FF32194785100C0F991 /* Build configuration list for PBXNativeTarget "MultipleViewsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2616FF42194785100C0F991 /* Debug */,
-				C2616FF52194785100C0F991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
